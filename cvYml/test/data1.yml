@@ -7,25 +7,13 @@ InitCenter: !!opencv-matrix
    data: [ 1.4644490943274371e-02, -3.7321335328364243e-02,
        3.7933653280416740e-01, 2.8644490943274371e-02, -7.4321335328364243e-02,
        7.4933653280416740e-01 ]
-InitRMS: !!opencv-matrix
-   rows: 1
-   cols: 1
-   dt: d
-   data: [ 1.9731027257895895e-03 ]
+InitRMS: 1.9731027257895895e-03 
 MinCenter: !!opencv-matrix
    rows: 3
    cols: 1
    dt: d
    data: [ 1.3723132499352048e-02, -3.5938527238342191e-02,
        3.8120740876031206e-01 ]
-MinRMS: !!opencv-matrix
-   rows: 1
-   cols: 1
-   dt: d
-   data: [ 1.2672203857362898e-03 ]
-Radius: !!opencv-matrix
-   rows: 1
-   cols: 1
-   dt: d
-   data: [ 4.3770000000000003e-02 ]
+MinRMS: 1.2672203857362898e-03 
+Radius: 4.3770000000000003e-02 
 MinZ: 3.7957896258354185e-01
