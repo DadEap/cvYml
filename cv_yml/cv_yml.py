@@ -15,7 +15,7 @@ def read_file(p_path):
     if not(isfile(p_path) and p_path.lower().endswith('.yml')):
         raise FileNotFoundError
     yaml.add_constructor(u"tag:yaml.org,2002:opencv-matrix", _opencv_matrix)
-    with open(path) as fin:
+    with open(p_path) as fin:
         for i in range(2):
             fin.readline()
         return yaml.load(fin.read())
