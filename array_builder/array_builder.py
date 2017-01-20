@@ -4,7 +4,7 @@ import numpy as np
 def latex_table(p_doc, p_dict, p_order = [], p_columnsName = {}, p_firstColumnName = ""):
 
     order = []
-    if len(p_order) == 0:
+    if not p_order:
         order = list(p_dict.keys())
     else:
         order = p_order
